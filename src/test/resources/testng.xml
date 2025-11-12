@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "OrnageHRMSuite">
+<test name= "ornageHRMTest">
+
+
+<classes>
+<class name = "com.orangehrm.test.DummyClass"/>
+<class name = "com.orangehrm.test.DummyClass2"/>
+
+</classes>
+</test>
+
+</suite>

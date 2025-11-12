@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-11T11:26:40 IST" name="OrnageHRMSuite" finished-at="2025-11-11T11:27:03 IST" duration-ms="22609">
+    <groups>
+    </groups>
+    <test started-at="2025-11-11T11:26:40 IST" name="ornageHRMTest" finished-at="2025-11-11T11:27:03 IST" duration-ms="22609">
+      <class name="com.orangehrm.test.DummyClass">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.orangehrm.test.DummyClass@69453e37]" started-at="2025-11-11T11:26:40 IST" name="loadConfig" finished-at="2025-11-11T11:26:40 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.DummyClass@69453e37]" started-at="2025-11-11T11:26:40 IST" name="setup" finished-at="2025-11-11T11:26:51 IST" duration-ms="10400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyTest()[pri:0, instance:com.orangehrm.test.DummyClass@69453e37]" started-at="2025-11-11T11:26:51 IST" name="dummyTest" finished-at="2025-11-11T11:26:51 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.DummyClass@69453e37]" started-at="2025-11-11T11:26:51 IST" name="tearDown" finished-at="2025-11-11T11:26:51 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.test.DummyClass -->
+      <class name="com.orangehrm.test.DummyClass2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.DummyClass2@43c1b556]" started-at="2025-11-11T11:26:51 IST" name="setup" finished-at="2025-11-11T11:27:03 IST" duration-ms="11539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyTest2()[pri:0, instance:com.orangehrm.test.DummyClass2@43c1b556]" started-at="2025-11-11T11:27:03 IST" name="dummyTest2" finished-at="2025-11-11T11:27:03 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.DummyClass2@43c1b556]" started-at="2025-11-11T11:27:03 IST" name="tearDown" finished-at="2025-11-11T11:27:03 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.test.DummyClass2 -->
+    </test> <!-- ornageHRMTest -->
+  </suite> <!-- OrnageHRMSuite -->
+</testng-results>
