@@ -9,12 +9,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.orangehrm.base.BaseClass;
+
 public class ActionDriver {
   private WebDriver driver ;
   private WebDriverWait wait  ;
   public ActionDriver(WebDriver driver) {
 	  this.driver=driver ;
-	 this.wait= new WebDriverWait(driver,Duration.ofSeconds(30)); 
+	int explicitWait= Integer.parseInt(BaseClass.getProp().getProperty("explicitWait"));
+	 this.wait= new WebDriverWait(driver,Duration.ofSeconds(explicitWait)); 
   }
 	 
 	 
@@ -132,8 +135,13 @@ public class ActionDriver {
 	 //method to enter text in input field 
 	 public void enterText(By by ,String value) {
 		 waitForElementToBeVisible(by);
-		driver.findElement(by).clear();
-		driver.findElement(by).sendKeys(value);
+		//driver.findElement(by).clear();
+		//driver.findElement(by).sendKeys(value);
+		 WebElement element = driver.findElement(by);
+		 element.clear();
+		 element.sendKeys(value);
+		 
+		
 	 }
 	 //method to get text form an input field 
 	 public String  getText(By by )

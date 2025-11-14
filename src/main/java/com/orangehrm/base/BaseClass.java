@@ -89,6 +89,17 @@ public class BaseClass {
 		 }
 	 }
  }
+  //getter method for prop
+  public static Properties getProp()
+  {
+	  return prop;
+  }
+  
+  
+  
+  
+  
+  
 	
 //Driver getter method
 	 public WebDriver getDriver() {
@@ -107,6 +118,10 @@ public class BaseClass {
 }
 	
 	
+
+
+
+
 	
 	
 	
