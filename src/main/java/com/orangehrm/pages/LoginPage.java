@@ -23,8 +23,8 @@ public class LoginPage {
    public void Login(String username,String password)
    
    {
-	   actionDriver.enterText(userNameField,"admin");
-	   actionDriver.enterText( passwordField ,"Mishra@1234");
+	   actionDriver.enterText(userNameField,username);
+	   actionDriver.enterText( passwordField ,password);
 	   actionDriver.click(loginButton);
 	   
    }

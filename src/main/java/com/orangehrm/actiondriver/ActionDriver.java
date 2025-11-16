@@ -40,11 +40,12 @@ public class ActionDriver {
 			 
 			 driver.findElement(by).click();
 			 
-			 driver.findElement(by).click();
+			
 			 
 		 }catch(Exception e)
 		 {
-			 System.out.println("unable to click the element ");
+			 System.out.println("unable to click the element "+e.getMessage());
+			 throw e ;
 			 
 		 }
 		 

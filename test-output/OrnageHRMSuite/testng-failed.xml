@@ -3,14 +3,15 @@
 <suite name="Failed suite [OrnageHRMSuite]">
   <test thread-count="5" name="ornageHRMTest(failed)">
     <classes>
-      <class name="com.orangehrm.test.DummyClass2">
+      <class name="com.orangehrm.test.LoginPageTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="dummyTest2"/>
+          <include name="setuppages"/>
+          <include name="verifyvalidLoginTest"/>
         </methods>
-      </class> <!-- com.orangehrm.test.DummyClass2 -->
+      </class> <!-- com.orangehrm.test.LoginPageTest -->
     </classes>
   </test> <!-- ornageHRMTest(failed) -->
 </suite> <!-- Failed suite [OrnageHRMSuite] -->
