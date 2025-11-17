@@ -8,8 +8,8 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="setuppages"/>
           <include name="verifyvalidLoginTest"/>
+          <include name="inValidLoginTest"/>
         </methods>
       </class> <!-- com.orangehrm.test.LoginPageTest -->
     </classes>

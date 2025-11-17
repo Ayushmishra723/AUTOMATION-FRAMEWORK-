@@ -16,14 +16,14 @@ public class LoginPageTest extends BaseClass {
 	private  HomePage homepage;
 	
 	@BeforeMethod
-	public void setuppages()
-	{
-		loginpage=new LoginPage(getDriver());
-		homepage= new HomePage(getDriver());
-		
-		
-		
-	}
+	
+	  public void setuppages() { loginpage=new LoginPage(); homepage=
+	  new HomePage(getDriver());
+	  
+	  
+	  
+	  }
+	 
 	
 	@Test
 	public void verifyvalidLoginTest()
@@ -34,6 +34,14 @@ public class LoginPageTest extends BaseClass {
 		homepage.logout();
 		staticWait(2);
 		
+		
+	}
+	@Test
+	
+	public void inValidLoginTest() {
+		loginpage.Login("admin","xcvv");
+		String expectedErrorMessage= "Invalid credentials";
+		Assert.assertTrue("Text Failed:Invalid ErrorMessage",loginpage.verifyErrorMessage(expectedErrorMessage));
 		
 	}
 }

@@ -14,10 +14,15 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import com.orangehrm.actiondriver.ActionDriver;
+
 public class BaseClass {
 	
     protected   static    Properties prop;
-  protected  WebDriver driver;
+  protected static  WebDriver driver;
+  
+  
+  private static ActionDriver actiondriver;
   @BeforeSuite
   public void loadConfig() throws IOException {
 	  
@@ -31,6 +36,16 @@ public class BaseClass {
 	  launchBrowser();
 	  configureBrowser(); 
 	  staticWait(2);
+	  
+	  
+	  //initialize the actionDriver only once 
+	  if(actiondriver==null)
+	  {
+		  actiondriver = new ActionDriver(driver);
+		  System.out.println("ActionDriver instnace is created");
+		  
+	  }
+		  
 	  
   }
   
@@ -88,12 +103,14 @@ public class BaseClass {
 		 System.out.println("unable to quit driver:"+e.getMessage());
 		 }
 	 }
+	 System.out.println("webdriver instance is closed");
+	 
+	 driver=null ;
+	 actiondriver= null;
+	 
  }
-  //getter method for prop
-  public static Properties getProp()
-  {
-	  return prop;
-  }
+
+
   
   
   
@@ -102,10 +119,42 @@ public class BaseClass {
   
 	
 //Driver getter method
-	 public WebDriver getDriver() {
+	/* public WebDriver getDriver() {
 		 return driver ;
 		 
-	 }
+	 }*/
+  
+  //getter method for webDriver
+  public static  WebDriver getDriver()
+  {
+	  if(driver==null)
+	  {
+		  System.out.println("WebDriver is not initialized");
+		  throw new IllegalStateException("WebDriver is not initialized");
+		  
+	  }
+	return driver;
+	  
+  }
+  public static  ActionDriver getActionDriver()
+  {
+	  if(actiondriver==null)
+	  {
+		  System.out.println("ActionDriver is not initialized");
+		  throw new IllegalStateException("ActionDriver is not initialized");
+		  
+	  }
+	return actiondriver;
+	  
+  }
+  //getter method for prop
+ public static Properties getProp()
+  {
+	  return prop;
+  }
+  
+  
+  
 	public void setDriver(WebDriver driver ) {
 		this.driver=driver ;
 		
@@ -116,6 +165,7 @@ public class BaseClass {
 	  LockSupport.parkNanos(TimeUnit.SECONDS.toNanos(seconds));
   }
 }
+
 	
 	
 

@@ -17,7 +17,9 @@ public class ActionDriver {
   public ActionDriver(WebDriver driver) {
 	  this.driver=driver ;
 	int explicitWait= Integer.parseInt(BaseClass.getProp().getProperty("explicitWait"));
-	 this.wait= new WebDriverWait(driver,Duration.ofSeconds(explicitWait)); 
+	 this.wait= new WebDriverWait(driver,Duration.ofSeconds(explicitWait));
+	 System.out.println("webDriver instanve is created ");
+	 
   }
 	 
 	 
@@ -82,8 +84,8 @@ public class ActionDriver {
 	 
 	 
 	 
-	 //method to compare tow text 
-	 public void compareText(By by,String expectedText) {
+	 //method to compare tow text ---change the return type 
+	 public boolean compareText(By by,String expectedText) {
 		 try {
 		 waitForElementToBeVisible(by);
 		 driver.findElement(by).getText();
@@ -91,10 +93,11 @@ public class ActionDriver {
 		 if(expectedText.equals(actualText))
 		 {
 			 System.out.println("Text are matching:"+actualText+" equals"+expectedText);
-			 
+			 return true ;
 		 }
 		 else {
 			 System.out.println("Text are matching:"+actualText+" notequals"+expectedText);
+			 return false;
 
 		 }
 		 }catch(Exception e)
@@ -102,6 +105,7 @@ public class ActionDriver {
 			 System.out.println("unable to comaptre text:"+e.getMessage());
 			 
 		 }
+		return false;
 		 
 		 
 	 }
@@ -113,7 +117,7 @@ public class ActionDriver {
     	  boolean isDisplayed = driver.findElement(by).isDisplayed();
     	  if(isDisplayed)
     	  {
-    		  System.out.println("elemnet is vissble ");
+    		  System.out.println("element is visible ");
     		  return isDisplayed;
     		  
     	  }
