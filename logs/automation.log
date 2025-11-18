@@ -1,0 +1,24 @@
+2025-11-18 22:10:06 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-18 22:10:06 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-18 22:10:06 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-18 22:10:06 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-18 22:10:06 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-18 22:10:06 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warm  messaage
+2025-11-18 22:10:07 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is craeted 
+2025-11-18 22:10:12 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-18 22:10:12 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-18 22:10:12 [main] INFO  com.orangehrm.utilities.LoggerManager - Action driver instance is created 
+2025-11-18 22:10:13 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
+2025-11-18 22:10:13 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
+2025-11-18 22:10:13 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:
+2025-11-18 22:10:14 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-18 22:10:15 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is craeted 
+2025-11-18 22:10:20 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-18 22:10:20 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-18 22:10:20 [main] INFO  com.orangehrm.utilities.LoggerManager - Action driver instance is created 
+2025-11-18 22:10:20 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-18 22:10:20 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-18 22:10:20 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:
+2025-11-18 22:10:22 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:
+2025-11-18 22:10:24 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:
+2025-11-18 22:10:26 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed

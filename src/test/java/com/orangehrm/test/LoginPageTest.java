@@ -40,7 +40,7 @@ public class LoginPageTest extends BaseClass {
 	
 	public void inValidLoginTest() {
 		loginpage.Login("admin","xcvv");
-		String expectedErrorMessage= "Invalid credentials";
+		String expectedErrorMessage= "Invalid credentials1";
 		Assert.assertTrue("Text Failed:Invalid ErrorMessage",loginpage.verifyErrorMessage(expectedErrorMessage));
 		
 	}

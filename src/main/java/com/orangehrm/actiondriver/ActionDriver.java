@@ -2,6 +2,7 @@ package com.orangehrm.actiondriver;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,11 +15,13 @@ import com.orangehrm.base.BaseClass;
 public class ActionDriver {
   private WebDriver driver ;
   private WebDriverWait wait  ;
+  public static final Logger logger= BaseClass.logger;
   public ActionDriver(WebDriver driver) {
 	  this.driver=driver ;
 	int explicitWait= Integer.parseInt(BaseClass.getProp().getProperty("explicitWait"));
 	 this.wait= new WebDriverWait(driver,Duration.ofSeconds(explicitWait));
 	 System.out.println("webDriver instanve is created ");
+	 logger.info("webDriver instance is created ");
 	 
   }
 	 
@@ -41,13 +44,16 @@ public class ActionDriver {
 			 waitForElementToBeClickable( by);
 			 
 			 driver.findElement(by).click();
+			 logger.info("clicked an element:");
+			
+			 
 			 
 			
 			 
 		 }catch(Exception e)
 		 {
 			 System.out.println("unable to click the element "+e.getMessage());
-			 throw e ;
+			 logger.error("unable to click the element "+e.getMessage());
 			 
 		 }
 		 
@@ -74,7 +80,7 @@ public class ActionDriver {
 		 js.executeScript("arguments[0],scrollIntoView(true)",element);
 		 }catch(Exception e)
 		 {
-			 System.out.println("unable to locate element:"+e.getMessage());
+			 logger.error("unable to locate element:"+e.getMessage());
 		 }
 	 }
 	 
@@ -102,7 +108,7 @@ public class ActionDriver {
 		 }
 		 }catch(Exception e)
 		 {
-			 System.out.println("unable to comaptre text:"+e.getMessage());
+			 logger.error("unable to comaptre text:"+e.getMessage());
 			 
 		 }
 		return false;
@@ -126,7 +132,7 @@ public class ActionDriver {
     	  }
     	  }catch(Exception e)
     	  {
-    		  System.out.println("element is not displayed");
+    		 logger.error("element is not displayed");
     		  
     		  return false;
     		  
@@ -145,17 +151,28 @@ public class ActionDriver {
 		 WebElement element = driver.findElement(by);
 		 element.clear();
 		 element.sendKeys(value);
+		 logger.info("value eneterd:"+value  );
+		 
+		 
 		 
 		
 	 }
 	 //method to get text form an input field 
 	 public String  getText(By by )
-	 {
+	 { 
+		 try {
+	 
 		 waitForElementToBeVisible(by);
 		  return driver.findElement(by).getText();
 		 
 	 }
-	 
+	 catch(Exception e)
+	 {
+		 logger.error("unable to get the text:"+e.getMessage());
+		 return " ";
+		 
+	 }
+	 }
 	 
 	 
 	 private  void waitForElementToBeVisible(By by) {
@@ -165,7 +182,7 @@ public class ActionDriver {
 		 
 	 }catch(Exception e)
 		 {
-		 System.out.println("element is not visible:"+e.getMessage());
+		 logger.error("element is not visible:"+e.getMessage());
 		 }
 	 }
 }

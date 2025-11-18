@@ -1,1 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace" monitorInterval="10">
+
+  <Appenders>
+
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <!-- Use only one file appender to avoid confusion (RollingFile below).
+         fileName uses ${sys:user.dir} so the log location is explicit. -->
+    <RollingFile name="RollingFile"
+                 fileName="${sys:user.dir}/logs/automation.log"
+                 filePattern="${sys:user.dir}/logs/automation-%d{yyyy-MM-dd}-%i.log.gz"
+                 append="true">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %m%n"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+        <SizeBasedTriggeringPolicy size="10MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="7"/>
+    </RollingFile>
+
+  </Appenders>
+
+  <Loggers>
+
+    <!-- Package-level logger: additivity="false" prevents double logs,
+         and names/refs are case-sensitive so keep them exact. -->
+    <Logger name="com.orangehrm" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RollingFile"/>
+    </Logger>
+
+    <Root level="info">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RollingFile"/>
+    </Root>
+
+  </Loggers>
+
+</Configuration>

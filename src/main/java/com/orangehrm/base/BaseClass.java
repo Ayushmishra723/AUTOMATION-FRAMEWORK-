@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,20 +16,29 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
-	
-    protected   static    Properties prop;
+	      static    Properties prop;
   protected static  WebDriver driver;
   
   
+  
   private static ActionDriver actiondriver;
+  public static final Logger logger= LoggerManager.getLogger(BaseClass.class);
   @BeforeSuite
   public void loadConfig() throws IOException {
 	  
 		prop=   new Properties();
 		FileInputStream fis =new FileInputStream("src\\main\\resources\\config.properties");//to read the file 
 		prop.load(fis);
+		logger.info("config.properties file loaded");
+		logger.trace("Trace message  ");
+		logger.error("this is error messaage");
+		logger.debug("this is debug messaage");
+		logger.fatal("this is fatal messaage");
+		logger.warn("this is a warm  messaage");
+		
   }
   @BeforeMethod
   public void setup() throws IOException{
@@ -36,6 +46,9 @@ public class BaseClass {
 	  launchBrowser();
 	  configureBrowser(); 
 	  staticWait(2);
+	   logger.info("webDriver initialized and Browser Maximized"
+			   );
+	   
 	  
 	  
 	  //initialize the actionDriver only once 
@@ -43,6 +56,7 @@ public class BaseClass {
 	  {
 		  actiondriver = new ActionDriver(driver);
 		  System.out.println("ActionDriver instnace is created");
+		  logger.info("Action driver instance is created ");
 		  
 	  }
 		  
@@ -56,10 +70,15 @@ public class BaseClass {
 		if(browser.equalsIgnoreCase("Chrome"))
 		{
 			driver= new ChromeDriver();
+			logger.info("ChromeDriver instance is craeted ");
+			
 			
 		}
 		else if(browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
+			logger.info("Firefox  instance is craeted ");
+			
+
 		
 	  }
 	  else {
@@ -103,7 +122,7 @@ public class BaseClass {
 		 System.out.println("unable to quit driver:"+e.getMessage());
 		 }
 	 }
-	 System.out.println("webdriver instance is closed");
+	 logger.info("webdriver instance is closed");
 	 
 	 driver=null ;
 	 actiondriver= null;
