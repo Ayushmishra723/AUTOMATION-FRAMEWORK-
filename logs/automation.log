@@ -22,3 +22,32 @@
 2025-11-18 22:10:22 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:
 2025-11-18 22:10:24 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:
 2025-11-18 22:10:26 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-18 23:38:06 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-18 23:38:06 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-18 23:38:06 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-18 23:38:06 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-18 23:38:06 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-18 23:38:06 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warm  messaage
+2025-11-18 23:38:08 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is craeted 
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - Action driver instance is created 
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
+2025-11-18 23:38:13 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-18 23:38:15 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-18 23:38:16 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is craeted 
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - Action driver instance is created 
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-18 23:38:21 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-18 23:38:23 [main] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
+2025-11-18 23:38:23 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Shamit Shetty
+2025-11-18 23:38:25 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with class:oxd-userdropdown-link
+2025-11-18 23:38:27 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
