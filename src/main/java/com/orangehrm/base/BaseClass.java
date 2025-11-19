@@ -20,11 +20,15 @@ import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 	      static    Properties prop;
-  protected static  WebDriver driver;
+  //protected static  WebDriver driver;
   
   
   
-  private static ActionDriver actiondriver;
+  //private static ActionDriver actiondriver;
+	      private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
+	      private static ThreadLocal<ActionDriver> actiondriver=new ThreadLocal<>();
+	      
+	      
   public static final Logger logger= LoggerManager.getLogger(BaseClass.class);
   @BeforeSuite
   public void loadConfig() throws IOException {
@@ -52,30 +56,39 @@ public class BaseClass {
 	  
 	  
 	  //initialize the actionDriver only once 
-	  if(actiondriver==null)
+	/*  if(actiondriver==null)
 	  {
 		  actiondriver = new ActionDriver(driver);
 		  System.out.println("ActionDriver instnace is created");
-		  logger.info("Action driver instance is created ");
+		  logger.info("Action driver instance is created "+Thread.currentThread().getId());
 		  
 	  }
 		  
-	  
-  }
+
+	   
   
+  */
+		  //initilaized Action driver for the current thread
+	   actiondriver.set(new ActionDriver(getDriver()));
+	   logger.info("ActionDriver initilaized for thread:"+Thread.currentThread().getId());
+	   
+	   
+  }
   
   
   private void launchBrowser() {
 		String browser = prop.getProperty("browser");
 		if(browser.equalsIgnoreCase("Chrome"))
 		{
-			driver= new ChromeDriver();
-			logger.info("ChromeDriver instance is craeted ");
+			//driver= new ChromeDriver();
+			driver.set(new ChromeDriver());
+			logger.info("ChromeDriver instance is craeted ");//new chnages as per thread
 			
 			
 		}
 		else if(browser.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
+			//driver = new FirefoxDriver();
+			driver.set(new FirefoxDriver());
 			logger.info("Firefox  instance is craeted ");
 			
 
@@ -91,11 +104,11 @@ public class BaseClass {
   private void configureBrowser() {
 	  int implicitWait=Integer.parseInt(prop.getProperty("implicitWait"));
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
 		//maximize the driver
-		driver.manage().window().maximize();
+		driver.get().manage().window().maximize();
 		try {
-		driver.get(prop.getProperty("url"));
+		getDriver().get(prop.getProperty("url"));
 	  }catch(Exception e)
 		{
 		  System.out.println("Failed to naviaget the URL:"+e.getMessage());
@@ -113,9 +126,9 @@ public class BaseClass {
   @AfterMethod 
  public void tearDown()
  {
-	 if(driver!=null) {
+	 if(driver.get()!=null) {
 		 try {
-		 driver.quit();
+		 driver.get().quit();
 		 
 	 } catch(Exception e)
 		 {
@@ -123,9 +136,12 @@ public class BaseClass {
 		 }
 	 }
 	 logger.info("webdriver instance is closed");
+	 driver.remove();
+	 actiondriver.remove();
 	 
-	 driver=null ;
-	 actiondriver= null;
+	 
+	// driver=null ;
+	 //actiondriver= null;
 	 
  }
 
@@ -146,24 +162,24 @@ public class BaseClass {
   //getter method for webDriver
   public static  WebDriver getDriver()
   {
-	  if(driver==null)
+	  if(driver.get()==null)
 	  {
 		  System.out.println("WebDriver is not initialized");
 		  throw new IllegalStateException("WebDriver is not initialized");
 		  
 	  }
-	return driver;
+	return driver.get();
 	  
   }
   public static  ActionDriver getActionDriver()
   {
-	  if(actiondriver==null)
+	  if(actiondriver.get()==null)
 	  {
 		  System.out.println("ActionDriver is not initialized");
 		  throw new IllegalStateException("ActionDriver is not initialized");
 		  
 	  }
-	return actiondriver;
+	return actiondriver.get();
 	  
   }
   //getter method for prop
@@ -174,7 +190,7 @@ public class BaseClass {
   
   
   
-	public void setDriver(WebDriver driver ) {
+	public void setDriver(ThreadLocal<WebDriver> driver ) {
 		this.driver=driver ;
 		
 	}

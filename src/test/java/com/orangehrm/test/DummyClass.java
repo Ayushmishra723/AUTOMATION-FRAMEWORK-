@@ -8,8 +8,8 @@ public class DummyClass extends BaseClass {
 	
 	public void dummyTest() {
 		
-		driver.getTitle();
-		 String title = driver.getTitle();
+		
+		 String title = getDriver().getTitle();
 		   assert title.equals("OrangeHRM"):"Test Failed- Title is not matching";
 		   System.out.println("Testpassed-title is Matching ");
 		   

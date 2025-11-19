@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name = "OrnageHRMSuite">
+<suite name = "OrnageHRMSuite" parallel="methods" thread-count="5">
 <test name= "ornageHRMTest">
 
 
@@ -8,6 +8,8 @@
 <class name = "com.orangehrm.test.DummyClass2"/>
 
 <class name = "com.orangehrm.test.LoginPageTest"/>
+<class name = "com.orangehrm.test.HomePageTest"/>
+
 
 
 </classes>
