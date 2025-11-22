@@ -10,6 +10,7 @@ import java.util.concurrent.locks.LockSupport;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -41,11 +42,11 @@ public class BaseClass {
 		logger.error("this is error messaage");
 		logger.debug("this is debug messaage");
 		logger.fatal("this is fatal messaage");
-		logger.warn("this is a warm  messaage");
+		logger.warn("this is a warn  messaage");
 		
   }
   @BeforeMethod
-  public void setup() throws IOException{
+  public synchronized void setup() throws IOException{
 	  System.out.println("setiing up Web Driver for:"+this.getClass().getSimpleName());
 	  launchBrowser();
 	  configureBrowser(); 
@@ -76,20 +77,35 @@ public class BaseClass {
   }
   
   
-  private void launchBrowser() {
+  private synchronized void launchBrowser() {
 		String browser = prop.getProperty("browser");
 		if(browser.equalsIgnoreCase("Chrome"))
 		{
 			//driver= new ChromeDriver();
 			driver.set(new ChromeDriver());
-			logger.info("ChromeDriver instance is craeted ");//new chnages as per thread
+			logger.info("ChromeDriver instance is created ");//new chnages as per thread
 			
 			
 		}
 		else if(browser.equalsIgnoreCase("firefox")) {
 			//driver = new FirefoxDriver();
 			driver.set(new FirefoxDriver());
-			logger.info("Firefox  instance is craeted ");
+			logger.info("Firefox  instance is created ");
+			
+
+		
+	  }
+	
+			else if (browser.equals("edge") || browser.equals("msedge")) {
+		        // === Option A: explicit path to msedgedriver.exe (recommended if SeleniumManager can't download) ===
+		        // Put your msedgedriver.exe, e.g. C:\tools\msedgedriver.exe
+				  System.setProperty(
+					        "webdriver.edge.driver", 
+					        "C:\\Users\\ayush mishra\\Downloads\\edgedriver_win64\\msedgedriver.exe"
+					    );
+			//driver = new FirefoxDriver();
+			driver.set(new EdgeDriver());
+			logger.info("edge   instance is created ");
 			
 
 		
@@ -124,7 +140,7 @@ public class BaseClass {
  
 	
   @AfterMethod 
- public void tearDown()
+ public synchronized void tearDown()
  {
 	 if(driver.get()!=null) {
 		 try {
