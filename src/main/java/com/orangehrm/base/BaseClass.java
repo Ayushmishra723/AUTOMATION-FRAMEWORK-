@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.ExtentManager;
 import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
@@ -38,6 +39,12 @@ public class BaseClass {
 		FileInputStream fis =new FileInputStream("src\\main\\resources\\config.properties");//to read the file 
 		prop.load(fis);
 		logger.info("config.properties file loaded");
+		//start the extent report 
+		ExtentManager.getReporter();
+		
+		
+		
+		
 		logger.trace("Trace message  ");
 		logger.error("this is error messaage");
 		logger.debug("this is debug messaage");
@@ -47,6 +54,7 @@ public class BaseClass {
   }
   @BeforeMethod
   public synchronized void setup() throws IOException{
+	   ExtentManager.startTest(this.getClass().getSimpleName());
 	  System.out.println("setiing up Web Driver for:"+this.getClass().getSimpleName());
 	  launchBrowser();
 	  configureBrowser(); 
@@ -83,6 +91,7 @@ public class BaseClass {
 		{
 			//driver= new ChromeDriver();
 			driver.set(new ChromeDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("ChromeDriver instance is created ");//new chnages as per thread
 			
 			
@@ -155,7 +164,7 @@ public class BaseClass {
 	 driver.remove();
 	 actiondriver.remove();
 	 
-	 
+	 ExtentManager.endTest();
 	// driver=null ;
 	 //actiondriver= null;
 	 

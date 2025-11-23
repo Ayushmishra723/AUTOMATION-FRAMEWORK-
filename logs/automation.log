@@ -1,118 +1,161 @@
-2025-11-22 15:46:52 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-22 15:46:52 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-22 15:46:52 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-22 15:46:52 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-22 15:46:52 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-22 15:46:52 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warm  messaage
-2025-11-22 15:46:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-22 15:46:55 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-22 15:46:55 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-22 15:46:56 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-22 15:46:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 15:46:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 15:46:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:43
-2025-11-22 15:46:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
-2025-11-22 15:46:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
-2025-11-22 15:47:00 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:42
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:39
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
-2025-11-22 15:47:01 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
-2025-11-22 15:47:02 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-22 15:47:02 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 15:47:02 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-22 15:47:03 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
-2025-11-22 15:47:04 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:manda s
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Logout
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
-2025-11-22 15:47:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-22 15:47:09 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 15:47:09 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 15:48:20 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-22 15:48:20 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-22 15:48:20 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-22 15:48:20 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-22 15:48:20 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-22 15:48:20 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warm  messaage
-2025-11-22 16:04:06 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-22 16:04:06 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-22 16:04:06 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-22 16:04:06 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-22 16:04:06 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-22 16:04:06 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warm  messaage
-2025-11-22 16:13:58 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-22 16:13:58 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-22 16:13:58 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-22 16:13:58 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-22 16:13:58 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-22 16:13:58 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
-2025-11-22 16:28:04 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-22 16:28:04 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-22 16:28:04 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-22 16:28:04 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-22 16:28:04 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-22 16:28:04 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
-2025-11-22 16:28:07 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - edge   instance is created 
-2025-11-22 16:28:07 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - edge   instance is created 
-2025-11-22 16:28:07 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - edge   instance is created 
-2025-11-22 16:28:07 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - edge   instance is created 
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:37
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:38
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:39
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 16:28:12 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
-2025-11-22 16:28:13 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
-2025-11-22 16:28:14 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - edge   instance is created 
-2025-11-22 16:28:15 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-22 16:28:15 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-22 16:28:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
-2025-11-22 16:28:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 16:28:18 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-22 16:28:18 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-22 16:28:18 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
-2025-11-22 16:28:19 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
-2025-11-22 16:28:19 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
-2025-11-22 16:28:19 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-22 16:28:19 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
-2025-11-22 16:28:19 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
-2025-11-22 16:28:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-22 16:28:21 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
-2025-11-22 16:28:21 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Suyash J
-2025-11-22 16:28:23 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Logout
-2025-11-22 16:28:25 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:33:40 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-23 22:33:40 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-23 22:33:40 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-23 22:33:40 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-23 22:33:40 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-23 22:33:40 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-23 22:33:43 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:33:43 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:33:43 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:33:43 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:43
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:39
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:33:48 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
+2025-11-23 22:33:49 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-23 22:33:49 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-23 22:33:49 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-23 22:33:49 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-23 22:33:50 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin
+2025-11-23 22:33:50 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
+2025-11-23 22:33:50 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:33:50 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:33:50 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
+2025-11-23 22:33:50 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
+2025-11-23 22:33:51 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:33:51 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:33:52 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
+2025-11-23 22:33:52 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:42
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-23 22:33:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:33:57 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
+2025-11-23 22:33:57 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:FirstName LastName
+2025-11-23 22:33:59 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with class:oxd-userdropdown-link
+2025-11-23 22:34:01 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:39:20 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-23 22:39:20 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-23 22:39:20 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-23 22:39:20 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-23 22:39:20 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-23 22:39:20 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-23 22:39:22 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:39:28 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:39:28 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:39:28 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-11-23 22:39:28 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:45:13 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-23 22:45:13 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-23 22:45:13 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-23 22:45:13 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-23 22:45:13 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-23 22:45:13 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-23 22:45:15 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:45:15 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:45:15 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:45:15 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:42
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:39
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:45:20 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:38
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:45:21 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:45:22 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:45:22 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:45:22 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
+2025-11-23 22:45:23 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:45:26 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:45:26 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:45:26 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
+2025-11-23 22:45:27 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-23 22:45:27 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-23 22:45:27 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-23 22:45:27 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-23 22:45:27 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:45:28 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:45:28 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
+2025-11-23 22:45:28 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:@ddfdfgf @@@@@@@
+2025-11-23 22:45:30 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with class:oxd-userdropdown-link
+2025-11-23 22:45:32 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:57:02 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-23 22:57:02 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-23 22:57:02 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-23 22:57:02 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-23 22:57:02 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-23 22:57:02 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-23 22:57:04 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:57:04 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:57:04 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:57:04 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:57:09 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:57:09 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:57:09 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:42
+2025-11-23 22:57:09 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:57:09 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:57:09 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:43
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Admin
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Admin
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:39
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password admin123
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin123
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:57:10 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:57:11 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-23 22:57:11 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:57:11 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:57:12 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
+2025-11-23 22:57:12 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
+2025-11-23 22:57:13 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:@ddfdfgf @@@@@@@
+2025-11-23 22:57:13 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:57:14 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Logout
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-23 22:57:16 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-23 22:57:18 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed

@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.utilities.ExtentManager;
 
 public class ActionDriver {
   private WebDriver driver ;
@@ -46,6 +47,8 @@ public class ActionDriver {
 			 waitForElementToBeClickable( by);
 			 
 			 driver.findElement(by).click();
+			 ExtentManager.logStep("clicked an element:"+elementDescription);
+			 
 			 logger.info("clicked an element:"+elementDescription);
 			
 			 
@@ -55,6 +58,7 @@ public class ActionDriver {
 		 }catch(Exception e)
 		 {
 			 System.out.println("unable to click the element "+e.getMessage());
+			 ExtentManager.logFailure(BaseClass.getDriver(), "unable to clcik the element:", elementDescription+"unable to click");
 			 logger.error("unable to click the element "+e.getMessage());
 			 
 		 }
@@ -101,10 +105,13 @@ public class ActionDriver {
 		 if(expectedText.equals(actualText))
 		 {
 			 System.out.println("Text are matching:"+actualText+" equals"+expectedText);
+			 ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "comapre text ", "text verified successfully");
 			 return true ;
 		 }
 		 else {
 			 System.out.println("Text are matching:"+actualText+" notequals"+expectedText);
+			 ExtentManager.logFailure(BaseClass.getDriver(), "comapre text ", "text comapriosn failed");
+
 			 return false;
 
 		 }
@@ -124,6 +131,8 @@ public class ActionDriver {
     	  waitForElementToBeVisible(by);
     	  boolean isDisplayed = driver.findElement(by).isDisplayed();
     	  logger.info("element is displayed:"+getElementDescription(by));
+    	  ExtentManager.logStep("element is displayed:" +getElementDescription(by));
+    	  ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "element is displayed:","element is displayed:"+getElementDescription(by));
     	  if(isDisplayed)
     	  {
     		  System.out.println("element is visible ");
