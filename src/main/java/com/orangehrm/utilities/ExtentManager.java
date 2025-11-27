@@ -211,6 +211,14 @@ public class ExtentManager {
         getTest().fail(logMessage);
         attachScreenshot(driver, screenshotMessage);
     }
+    
+    
+    
+    public static void logSkip(String logMessage)
+    {
+    	String colorMessage=String.format("<span style='color:orange;'>%s</span>", logMessage);
+    	getTest().skip(colorMessage);
+    }
 
     // take a screenshot with date and time in file and return Base64 string
     public static String takeScreenshot(WebDriver driver, String screenshotName) {

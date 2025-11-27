@@ -27,7 +27,8 @@ public class HomePageTest extends BaseClass {
 	
   public void verifyOrangeHRMLogo()
   
-  {    ExtentManager.startTest("Valid login Test ");
+  {  
+		//ExtentManager.startTest("Valid login Test ");
 	ExtentManager.logStep("naviagting to login page entering username and password");
 	  loginpage.Login("Admin","admin123");
 		ExtentManager.logStep("verifing logo is visisble or not ");

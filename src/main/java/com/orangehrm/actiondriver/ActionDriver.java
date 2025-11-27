@@ -110,7 +110,7 @@ public class ActionDriver {
 		 }
 		 else {
 			 System.out.println("Text are matching:"+actualText+" notequals"+expectedText);
-			 ExtentManager.logFailure(BaseClass.getDriver(), "comapre text ", "text comapriosn failed");
+			 ExtentManager.logFailure(BaseClass.getDriver(), "comparison Failed ", "text comapriosn failed");
 
 			 return false;
 

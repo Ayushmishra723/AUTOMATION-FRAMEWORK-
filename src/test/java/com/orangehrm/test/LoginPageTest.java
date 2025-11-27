@@ -31,7 +31,7 @@ public class LoginPageTest extends BaseClass {
 	
 	{
 		
-		ExtentManager.startTest("Valid login Test ");
+		//ExtentManager.startTest("Valid login Test ");
 		ExtentManager.logStep("naviagting to login page enetring username and password");
 		loginpage.Login("Admin","admin123");
 		ExtentManager.logStep("verifing admin tab is visisble or not ");
@@ -47,7 +47,7 @@ public class LoginPageTest extends BaseClass {
 	@Test
 	
 	public void inValidLoginTest() {
-		ExtentManager.startTest("inValid login Test ");
+		//ExtentManager.startTest("inValid login Test ");
 		ExtentManager.logStep("naviagting to login page enetring username and password");
 		
 		loginpage.Login("admin","xcvv");

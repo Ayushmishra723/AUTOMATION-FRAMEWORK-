@@ -10,7 +10,7 @@ public class DummyClass2 extends BaseClass {
 	public void dummyTest2() {
 		
 		
-		 ExtentManager.startTest("DummyTest2 Test ");
+		// ExtentManager.startTest("DummyTest2 Test ");
 		
 		 String title = getDriver().getTitle();
 		 ExtentManager.logStep("verifying the title");

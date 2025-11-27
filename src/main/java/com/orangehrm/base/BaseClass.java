@@ -40,7 +40,7 @@ public class BaseClass {
 		prop.load(fis);
 		logger.info("config.properties file loaded");
 		//start the extent report 
-		ExtentManager.getReporter();
+	//	ExtentManager.getReporter();--this has been impelmneted in test listener
 		
 		
 		
@@ -164,7 +164,7 @@ public class BaseClass {
 	 driver.remove();
 	 actiondriver.remove();
 	 
-	 ExtentManager.endTest();
+	// ExtentManager.endTest();
 	// driver=null ;
 	 //actiondriver= null;
 	 
