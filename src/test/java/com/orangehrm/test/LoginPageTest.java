@@ -6,9 +6,12 @@ import org.testng.annotations.Test;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utilities.DataProviders;
 import com.orangehrm.utilities.ExtentManager;
+import org.testng.Assert;
 
-import junit.framework.Assert;
+
+
 
 public class LoginPageTest extends BaseClass {
 
@@ -26,17 +29,17 @@ public class LoginPageTest extends BaseClass {
 	  }
 	 
 	
-	@Test
-	public void verifyvalidLoginTest()
+	@Test(dataProvider="validLoginData",dataProviderClass=DataProviders.class)
+	public void verifyvalidLoginTest(String username,String password)
 	
 	{
 		
 		//ExtentManager.startTest("Valid login Test ");
 		ExtentManager.logStep("naviagting to login page enetring username and password");
-		loginpage.Login("Admin","admin123");
+		loginpage.Login(username,password);
 		ExtentManager.logStep("verifing admin tab is visisble or not ");
 		
-		Assert.assertTrue("Admin tab should be visisble after successfull login",homepage.isAdminTabVisible());
+		Assert.assertTrue(homepage.isAdminTabVisible());
 		ExtentManager.logStep(null);
 		homepage.logout();
 		ExtentManager.logStep("Logged out successfully");
@@ -44,16 +47,16 @@ public class LoginPageTest extends BaseClass {
 		
 		
 	}
-	@Test
+	@Test(dataProvider="invalidLoginData",dataProviderClass=DataProviders.class)
 	
-	public void inValidLoginTest() {
+	public void inValidLoginTest(String username,String password) {
 		//ExtentManager.startTest("inValid login Test ");
-		ExtentManager.logStep("naviagting to login page enetring username and password");
+		ExtentManager.logStep("naviagting to login page entering username and password");
 		
-		loginpage.Login("admin","xcvv");
+		loginpage.Login(username,password);
 		String expectedErrorMessage= "Invalid credentials";
 		
-		Assert.assertTrue("Text Failed:Invalid ErrorMessage",loginpage.verifyErrorMessage(expectedErrorMessage));
+		Assert.assertTrue(loginpage.verifyErrorMessage(expectedErrorMessage),"Text Failed:Invalid ErrorMessage");
 		ExtentManager.logStep("validation successful");
 		ExtentManager.logStep("Logged out successfully");
 		

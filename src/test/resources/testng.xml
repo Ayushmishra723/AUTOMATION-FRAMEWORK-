@@ -11,6 +11,7 @@
 
 <classes>
 <class name = "com.orangehrm.test.DummyClass"/>
+
 <class name = "com.orangehrm.test.DummyClass2"/>
 
 <class name = "com.orangehrm.test.LoginPageTest"/>
