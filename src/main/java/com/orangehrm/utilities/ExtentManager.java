@@ -217,7 +217,7 @@ public class ExtentManager {
     public static void logSkip(String logMessage)
     {
     	String colorMessage=String.format("<span style='color:orange;'>%s</span>", logMessage);
-    	getTest().skip(colorMessage);
+    	getTest().skip(colorMessage); 
     }
 
     // take a screenshot with date and time in file and return Base64 string
