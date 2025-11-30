@@ -6,14 +6,15 @@
   </listeners>
   <test thread-count="5" parallel="methods" name="ornageHRMTest(failed)">
     <classes>
-      <class name="com.orangehrm.test.DummyClass">
+      <class name="com.orangehrm.test.DBVerificationTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="dummyTest"/>
+          <include name="setuppages"/>
+          <include name="VerifyEmployeeFromDB"/>
         </methods>
-      </class> <!-- com.orangehrm.test.DummyClass -->
+      </class> <!-- com.orangehrm.test.DBVerificationTest -->
     </classes>
   </test> <!-- ornageHRMTest(failed) -->
 </suite> <!-- Failed suite [OrnageHRMSuite] -->

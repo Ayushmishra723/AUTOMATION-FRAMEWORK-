@@ -21,7 +21,7 @@ import com.orangehrm.utilities.ExtentManager;
 import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
-	      static    Properties prop;
+	      protected static    Properties prop;
   //protected static  WebDriver driver;
   
   

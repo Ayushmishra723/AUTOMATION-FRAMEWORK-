@@ -1,197 +1,280 @@
-2025-11-29 22:35:47 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-29 22:35:47 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-29 22:35:47 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-29 22:35:47 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-29 22:35:47 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-29 22:35:47 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
-2025-11-29 22:35:51 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:35:51 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:35:51 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:35:51 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:43
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
-2025-11-29 22:35:54 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:44
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
-2025-11-29 22:35:55 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
-2025-11-29 22:35:56 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:35:56 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
-2025-11-29 22:35:56 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
-2025-11-29 22:35:56 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
-2025-11-29 22:35:56 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
-2025-11-29 22:35:56 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
-2025-11-29 22:35:57 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
-2025-11-29 22:35:57 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-29 22:35:58 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-29 22:35:58 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Admin
-2025-11-29 22:35:58 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
-2025-11-29 22:35:59 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:35:59 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:35:59 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:42
-2025-11-29 22:35:59 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
-2025-11-29 22:35:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element unable to describe the element
-2025-11-29 22:35:59 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
-2025-11-29 22:36:00 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:36:29 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element no such element: Unable to locate element: {"method":"css selector","selector":".oxd\-userdropdown\-tab"}
+2025-11-30 23:11:32 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:11:32 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:11:32 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:11:32 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:11:32 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:11:32 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:11:35 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:11:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:11:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:11:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:35
+2025-11-30 23:11:39 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:11:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:11:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:11:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:11:42 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:11:42 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:11:42 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:11:42 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:11:44 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:11:50 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:11:51 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:11:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham
+2025-11-30 23:11:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham
+2025-11-30 23:11:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:11:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:11:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:11:53 [TestNG-test-ornageHRMTest-1] WARN  com.orangehrm.utilities.LoggerManager - Failed to apply the border to an element:element with text:Shubham
+2025-11-30 23:11:58 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:13:35 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:13:35 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:13:35 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:13:35 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:13:35 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:13:35 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:13:37 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:34
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:13:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:13:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:13:42 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:13:44 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:13:45 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:13:45 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham
+2025-11-30 23:13:45 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham
+2025-11-30 23:13:45 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:13:45 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:13:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:13:47 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  red to element element with text:Shubham
+2025-11-30 23:13:47 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:19:17 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:19:17 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:19:17 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:19:17 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:19:17 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:19:17 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:19:19 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:19:22 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:19:22 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:19:22 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-11-30 23:19:22 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:19:23 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:19:25 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:19:27 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:19:28 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:19:28 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham
+2025-11-30 23:19:28 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham
+2025-11-30 23:19:28 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:19:28 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:19:29 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:19:29 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  red to element element with text:Shubham
+2025-11-30 23:19:30 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:29:35 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:29:35 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:29:35 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:29:35 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:29:35 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:29:35 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:29:37 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:29:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:29:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:29:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:34
+2025-11-30 23:29:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:29:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:29:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:29:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:29:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:29:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:29:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:29:41 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:29:43 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:29:45 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:29:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:29:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham
+2025-11-30 23:29:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham
+2025-11-30 23:29:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:29:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:29:47 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Shubham
+2025-11-30 23:29:47 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  red to element element with text:Shubham
+2025-11-30 23:29:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:30:47 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:30:47 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:30:47 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:30:47 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:30:47 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:30:47 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:30:49 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:34
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:30:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:30:53 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:30:53 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:30:54 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:30:56 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:30:57 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:30:57 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham singh
+2025-11-30 23:30:57 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham singh
+2025-11-30 23:30:57 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:30:57 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:30:58 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:30:58 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  red to element element with text:AYUSH
+2025-11-30 23:30:59 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:31:17 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:31:17 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:31:17 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:31:17 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:31:17 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:31:17 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:31:19 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:34
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:31:22 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:31:23 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:31:23 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:31:23 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:31:23 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:31:25 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:31:27 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:31:27 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:31:27 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham singh
+2025-11-30 23:31:27 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham singh
+2025-11-30 23:31:27 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:31:28 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:31:28 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:31:39 [TestNG-test-ornageHRMTest-1] ERROR com.orangehrm.utilities.LoggerManager - element is not visible:invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
   (Session info: chrome=142.0.7444.176)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=class name, value=oxd-userdropdown-tab}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:29 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element no such element: Unable to locate element: {"method":"css selector","selector":".oxd\-userdropdown\-tab"}
-  (Session info: chrome=142.0.7444.176)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Command: [41d2d75f23a42ecbc3ea24839e830a7e, findElement {using=xpath, value=//div[@class='oxd-table-card']/div/div[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56669}, goog:processID: 17012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56669/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41d2d75f23a42ecbc3ea24839e830a7e
+2025-11-30 23:31:39 [TestNG-test-ornageHRMTest-1] ERROR com.orangehrm.utilities.LoggerManager - unable to comaptre text:invalid session id
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=class name, value=oxd-userdropdown-tab}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:29 [TestNG-test-ornageHRMTest-4] WARN  com.orangehrm.utilities.LoggerManager - Failed to apply the border to an element:unable to describe the element
-2025-11-29 22:37:29 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin 
-2025-11-29 22:37:29 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin 
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-3] ERROR com.orangehrm.utilities.LoggerManager - element is not visible:invalid session id
+Command: [41d2d75f23a42ecbc3ea24839e830a7e, findElement {using=xpath, value=//div[@class='oxd-table-card']/div/div[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56669}, goog:processID: 17012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56669/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41d2d75f23a42ecbc3ea24839e830a7e
+2025-11-30 23:31:39 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:35:30 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:35:30 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:35:30 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:35:30 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:35:30 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:35:30 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:35:32 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:35:35 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:35:35 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:35:35 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:34
+2025-11-30 23:35:36 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:35:37 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:35:37 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:35:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:35:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:35:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:35:38 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:35:39 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:35:40 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:35:46 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:35:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:35:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham singh
+2025-11-30 23:35:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham singh
+2025-11-30 23:35:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:35:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:35:48 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:35:49 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  red to element element with text:AYUSH
+2025-11-30 23:35:52 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:38:02 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:38:02 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:38:02 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:38:02 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:38:02 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:38:02 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:38:05 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:36
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:38:08 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:38:09 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:38:09 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:38:09 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:38:09 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:38:10 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:38:13 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:38:13 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:38:13 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... Shubham singh
+2025-11-30 23:38:13 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Shubham singh
+2025-11-30 23:38:13 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:38:14 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:38:14 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:39:00 [TestNG-test-ornageHRMTest-1] ERROR com.orangehrm.utilities.LoggerManager - element is not visible:Error communicating with the remote browser. It may have died.
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=css selector, value=input[type='password']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element invalid session id
+Command: [00660df37bbff675c6a46ea03ae1b63b, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55187}, goog:processID: 13184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55187/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00660df37bbff675c6a46ea03ae1b63b
+2025-11-30 23:39:00 [TestNG-test-ornageHRMTest-1] ERROR com.orangehrm.utilities.LoggerManager - unable to comaptre text:Error communicating with the remote browser. It may have died.
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=class name, value=oxd-userdropdown-tab}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-3] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=css selector, value=input[type='password']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-3] WARN  com.orangehrm.utilities.LoggerManager - Failed to apply the border to an element:unable to describe the element
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] WARN  com.orangehrm.utilities.LoggerManager - Failed to apply the border to an element:unable to describe the element
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unable to click the element invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=class name, value=oxd-userdropdown-tab}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element invalid session id
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement {using=xpath, value=//a[text()='Logout']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element Error communicating with the remote browser. It may have died.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] WARN  com.orangehrm.utilities.LoggerManager - Failed to apply the border to an element:unable to describe the element
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unalble to describe the element Error communicating with the remote browser. It may have died.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-4] WARN  com.orangehrm.utilities.LoggerManager - Failed to apply the border to an element:unable to describe the element
-2025-11-29 22:37:40 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:37:41 [TestNG-test-ornageHRMTest-4] ERROR com.orangehrm.utilities.LoggerManager - unable to click the element Error communicating with the remote browser. It may have died.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47dbab5d70e003059d7d5e7f00f7e111, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60479}, goog:processID: 5244, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60479/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47dbab5d70e003059d7d5e7f00f7e111
-2025-11-29 22:37:43 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:38:09 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
-2025-11-29 22:38:09 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
-2025-11-29 22:38:09 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
-2025-11-29 22:38:09 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
-2025-11-29 22:38:09 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
-2025-11-29 22:38:09 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
-2025-11-29 22:38:11 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:38:11 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:38:12 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:38:12 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:40
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:39
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:38:15 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:43
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:41
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-2] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username admin 
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:admin 
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password xcvv
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:xcvv
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-29 22:38:16 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
-2025-11-29 22:38:17 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
-2025-11-29 22:38:18 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-29 22:38:18 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Invalid credentials
-2025-11-29 22:38:19 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element unable to describe the element
-2025-11-29 22:38:19 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:unable to describe the element
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-5] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:42
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-3] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
-2025-11-29 22:38:20 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
-2025-11-29 22:38:22 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Admin
-2025-11-29 22:38:22 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - element is displayed:element with text:Admin
-2025-11-29 22:38:22 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH MISHRA
-2025-11-29 22:38:22 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:AYUSH MISHRA
-2025-11-29 22:38:23 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Logout
-2025-11-29 22:38:24 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with class:oxd-userdropdown-link
-2025-11-29 22:38:26 [TestNG-test-ornageHRMTest-4] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+Command: [00660df37bbff675c6a46ea03ae1b63b, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55187}, goog:processID: 13184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55187/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00660df37bbff675c6a46ea03ae1b63b
+2025-11-30 23:39:00 [TestNG-test-ornageHRMTest-1] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-11-30 23:39:31 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-11-30 23:39:31 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-11-30 23:39:31 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-11-30 23:39:31 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-11-30 23:39:31 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-11-30 23:39:31 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-11-30 23:39:33 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-11-30 23:39:36 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-11-30 23:39:37 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-11-30 23:39:37 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-11-30 23:39:37 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-11-30 23:39:37 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-11-30 23:39:39 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-11-30 23:39:41 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-11-30 23:39:41 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-11-30 23:39:41 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... AYUSH MISHRA
+2025-11-30 23:39:41 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:AYUSH MISHRA
+2025-11-30 23:39:41 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-11-30 23:39:42 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-11-30 23:39:42 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-11-30 23:39:43 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  red to element element with text:AYUSH
+2025-11-30 23:39:43 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed

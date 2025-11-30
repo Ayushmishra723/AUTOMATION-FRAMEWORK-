@@ -88,7 +88,7 @@ public class ActionDriver {
 			 applyBorder(by,"green");
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement element =  driver.findElement(by);
-		 js.executeScript("arguments[0],scrollIntoView(true)",element);
+		 js.executeScript("arguments[0].scrollIntoView(true)",element);
 		 }catch(Exception e)
 		 {
 			 applyBorder(by,"red");

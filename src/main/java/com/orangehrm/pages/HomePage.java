@@ -13,6 +13,14 @@ public class HomePage {
   private By userIdButton= By.className("oxd-userdropdown-tab");
   private By logoutButton= By.xpath("//a[text()='Logout']");
   private By orangeHRMlogo= By.xpath("//div[@class='oxd-brand-banner']//img");
+  private By pimtab= By.xpath("//span[text()=\"PIM\"]");
+  private By employeeSearch=By.xpath("//label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input");
+  private By searchButton=By.xpath("//button[@type='submit']");
+  private By emplFirstAndMiddleName = By.xpath("//div[@class='oxd-table-card']/div/div[3]");
+  private By emplyLastName= By.xpath("//div[@class='oxd-table-card']/div/div[4]");
+ 
+  
+  
   //initialize the aActionDriver by passing webDriver instance 
   
   /*public HomePage(WebDriver driver)
@@ -37,9 +45,40 @@ public class HomePage {
 	  return actionDriver.isDisplayed(orangeHRMlogo);
 	  
   }
+  //method to naviagate to pim tab 
+  public void clickOnPIMTab()
+  {
+	  actionDriver.click(pimtab);
+	  }
+  
+  public void employeeSearch(String value)
+  {
+	  actionDriver.enterText(employeeSearch, value);
+	  actionDriver.click(searchButton);
+	  actionDriver.scrollToElement(emplFirstAndMiddleName);
+	  
+  }
+  //verify employee first and middle nam e
+  public boolean verifyEmployeeFirstAndMiddleName(String emplFirstAndMiddleNameFromDb)
+  {
+	return actionDriver.compareText(emplFirstAndMiddleName,emplFirstAndMiddleNameFromDb);
+	
+	  
+  }
+  public boolean verifyEmployeLastName(String emplLastNameFromDb)
+  {
+	return actionDriver.compareText(emplyLastName,emplLastNameFromDb);
+	
+	  
+  }
+  
+  
   public void logout() {
 	  actionDriver.click(userIdButton);
 	  actionDriver.click(logoutButton);
 	  
   }
+  
+  
+  
 }

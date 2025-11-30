@@ -92,6 +92,13 @@
             <artifactId>extentreports</artifactId>
             <version>5.1.1</version>
         </dependency>
+        <!-- MySQL JDBC Driver -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
+
 
     </dependencies>
 
