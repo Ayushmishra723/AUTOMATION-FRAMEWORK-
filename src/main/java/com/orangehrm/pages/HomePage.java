@@ -59,18 +59,14 @@ public class HomePage {
 	  
   }
   //verify employee first 
-  public boolean verifyEmployeeFirstName(String emplFirstNameFromDb)
+  public boolean verifyEmployeeFullName(String firstNameDb, String lastNameDb)
   {
-	return actionDriver.compareText(emplFirstName,emplFirstNameFromDb);
-	
-	  
+      boolean firstNameMatch = actionDriver.compareText(emplFirstName, firstNameDb);
+      boolean lastNameMatch  = actionDriver.compareText(emplyLastName, lastNameDb);
+
+      return firstNameMatch && lastNameMatch;
   }
-  public boolean verifyEmployeLastName(String emplLastNameFromDb)
-  {
-	return actionDriver.compareText(emplyLastName,emplLastNameFromDb);
-	
-	  
-  }
+
   
   
   public void logout() {

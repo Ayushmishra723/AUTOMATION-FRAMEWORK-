@@ -10,6 +10,7 @@ import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
 import com.orangehrm.utilities.DBConnection;
+import com.orangehrm.utilities.DataProviders;
 import com.orangehrm.utilities.ExtentManager;
 
 public class DBVerificationTest extends BaseClass {
@@ -23,11 +24,16 @@ public class DBVerificationTest extends BaseClass {
 		loginpage=new LoginPage(); 
 		homepage=
 	  new HomePage(getDriver());
+		
 	}
-	  @Test
+	
+	
+	
+	@Test(dataProvider="emplVerification",dataProviderClass=DataProviders.class)
 	  
 	  
-	  public void VerifyEmployeeFromDB()
+	  
+	  public void VerifyEmployeeFromDB(String emp_id,String emp_name)
 	  {
 		  ExtentManager.logStep("Logging with Admin credentials");
 		  loginpage.Login(prop.getProperty("username"),prop.getProperty("password"));
@@ -35,20 +41,30 @@ public class DBVerificationTest extends BaseClass {
 		  homepage.clickOnPIMTab();
 		  
 		  ExtentManager.logStep("search for Employee");
-		  homepage.employeeSearch("AYUSH MISHRA");
+		  homepage.employeeSearch(emp_name);
 		  
 		  ExtentManager.logStep("Get the employee name form db ");
-		  String employee_id = "1";
+		  String employee_id = emp_id;
 		  
 		  //fetch the data into  a map
 		 Map<String,String> employeeDetails= DBConnection.getEmployeeDetails(employee_id);
 		String emplFirstName= employeeDetails.get("firstName");
-		// String emplLastName=employeeDetails.get("lastName");
+		String emplLastName=employeeDetails.get("lastName");
 		 
-		 String emplFirstAndLastName=(emplFirstName).trim();
+		 //String emplFirstAndLastName=(emplFirstName).trim();
 		 ExtentManager.logStep("verify the employee first and last name");
-		 Assert.assertTrue(homepage.verifyEmployeeFirstName(emplFirstAndLastName),"First and Last name are not matching ");
-		ExtentManager.logStep("DB Validatiom completed");
+	
+		 
+		 // Assert.assertTrue(homepage.verifyEmployeeFirstName(emplFirstAndLastName),"First and Last name are not matching ");
+		
+		 Assert.assertTrue(
+				    homepage.verifyEmployeeFullName(emplFirstName, emplLastName),
+				    "Full name does not match!"
+				);
+
+		 
+		 ExtentManager.logStep("DB Validatiom completed");
+		
 		
 		 
 		 

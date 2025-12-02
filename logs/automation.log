@@ -220,3 +220,219 @@ Session ID: fc098d3746239f4cc12d0361dd60e210
 2025-12-02 10:00:12 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
 2025-12-02 10:00:13 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
 2025-12-02 10:00:13 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-12-02 10:11:19 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-12-02 10:11:19 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-12-02 10:11:19 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-12-02 10:11:19 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-12-02 10:11:19 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-12-02 10:11:19 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-12-02 10:11:21 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-12-02 10:11:35 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-12-02 10:11:41 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-12-02 10:11:45 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-12-02 10:11:46 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-12-02 10:11:46 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... AYUSH MISHRA
+2025-12-02 10:11:46 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:AYUSH MISHRA
+2025-12-02 10:11:46 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-12-02 10:11:46 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-12-02 10:11:46 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 10:11:47 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 10:11:47 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:MISHRA
+2025-12-02 10:11:47 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-12-02 10:12:09 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-12-02 10:12:09 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-12-02 10:12:09 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-12-02 10:12:09 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-12-02 10:12:09 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-12-02 10:12:09 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-12-02 10:12:11 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-12-02 10:12:13 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-12-02 10:12:13 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-12-02 10:12:13 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-12-02 10:12:14 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-12-02 10:12:16 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-12-02 10:12:17 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... AYUSH MISHRA
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:AYUSH MISHRA
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 10:12:18 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 10:12:19 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:MISHRA
+2025-12-02 10:12:19 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-12-02 10:27:22 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-12-02 10:27:22 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-12-02 10:27:22 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-12-02 10:27:22 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-12-02 10:27:22 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-12-02 10:27:22 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-12-02 10:27:25 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-12-02 10:27:27 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-12-02 10:27:27 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-12-02 10:27:27 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-12-02 10:27:27 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-12-02 10:27:28 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-12-02 10:27:30 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-12-02 10:27:32 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-12-02 10:27:32 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-12-02 10:27:32 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... empName
+2025-12-02 10:27:32 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:empName
+2025-12-02 10:27:32 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-12-02 10:27:32 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-12-02 10:27:33 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 10:28:34 [main] ERROR com.orangehrm.utilities.LoggerManager - element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='oxd-table-card']/div/div[3] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 21228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74aab970b763e9d26666ecfc6a0a084a
+2025-12-02 10:29:04 [main] ERROR com.orangehrm.utilities.LoggerManager - unable to comaptre text:no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[3]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74aab970b763e9d26666ecfc6a0a084a, findElement {value=//div[@class='oxd-table-card']/div/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 21228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74aab970b763e9d26666ecfc6a0a084a
+2025-12-02 10:30:04 [main] ERROR com.orangehrm.utilities.LoggerManager - element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='oxd-table-card']/div/div[4] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 21228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74aab970b763e9d26666ecfc6a0a084a
+2025-12-02 10:30:34 [main] ERROR com.orangehrm.utilities.LoggerManager - unable to comaptre text:no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[4]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74aab970b763e9d26666ecfc6a0a084a, findElement {value=//div[@class='oxd-table-card']/div/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54071}, goog:processID: 21228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54071/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74aab970b763e9d26666ecfc6a0a084a
+2025-12-02 10:30:35 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-12-02 11:02:40 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-12-02 11:02:40 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-12-02 11:02:40 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-12-02 11:02:40 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-12-02 11:02:40 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-12-02 11:02:40 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-12-02 11:02:42 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-12-02 11:02:45 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-12-02 11:02:45 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-12-02 11:02:45 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-12-02 11:02:45 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-12-02 11:02:45 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-12-02 11:02:45 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-12-02 11:02:46 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-12-02 11:02:46 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-12-02 11:02:46 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-12-02 11:02:46 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-12-02 11:02:46 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-12-02 11:02:48 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-12-02 11:02:50 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-12-02 11:02:50 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-12-02 11:02:50 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... emp_name
+2025-12-02 11:02:50 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:emp_name
+2025-12-02 11:02:50 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-12-02 11:02:50 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-12-02 11:02:51 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 11:02:51 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 11:03:52 [main] ERROR com.orangehrm.utilities.LoggerManager - element is not visible:Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='oxd-table-card']/div/div[4] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55265}, goog:processID: 26396, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55265/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc88ad3f15f19075921388fd14665bc4
+2025-12-02 11:04:22 [main] ERROR com.orangehrm.utilities.LoggerManager - unable to comaptre text:no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-card']/div/div[4]"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc88ad3f15f19075921388fd14665bc4, findElement {value=//div[@class='oxd-table-card']/div/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AYUSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55265}, goog:processID: 26396, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55265/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc88ad3f15f19075921388fd14665bc4
+2025-12-02 11:04:22 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-12-02 11:08:58 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-12-02 11:08:58 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-12-02 11:08:58 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-12-02 11:08:58 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-12-02 11:08:58 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-12-02 11:08:58 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-12-02 11:09:01 [main] INFO  com.orangehrm.utilities.LoggerManager - config.properties file loaded
+2025-12-02 11:09:01 [main] TRACE com.orangehrm.utilities.LoggerManager - Trace message  
+2025-12-02 11:09:01 [main] ERROR com.orangehrm.utilities.LoggerManager - this is error messaage
+2025-12-02 11:09:01 [main] DEBUG com.orangehrm.utilities.LoggerManager - this is debug messaage
+2025-12-02 11:09:01 [main] FATAL com.orangehrm.utilities.LoggerManager - this is fatal messaage
+2025-12-02 11:09:01 [main] WARN  com.orangehrm.utilities.LoggerManager - this is a warn  messaage
+2025-12-02 11:09:01 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-12-02 11:09:03 [main] INFO  com.orangehrm.utilities.LoggerManager - ChromeDriver instance is created 
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-12-02 11:09:04 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-12-02 11:09:06 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-12-02 11:09:06 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver initialized and Browser Maximized
+2025-12-02 11:09:06 [main] INFO  com.orangehrm.utilities.LoggerManager - webDriver instance is created 
+2025-12-02 11:09:06 [main] INFO  com.orangehrm.utilities.LoggerManager - ActionDriver initilaized for thread:1
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:username
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:username Ayush
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Ayush
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with name:password
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with name:password Mishra@1234
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:Mishra@1234
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Login
+2025-12-02 11:09:07 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Login
+2025-12-02 11:09:08 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-12-02 11:09:09 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-12-02 11:09:09 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:PIM
+2025-12-02 11:09:09 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... AYUSH MISHRA
+2025-12-02 11:09:09 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:AYUSH MISHRA
+2025-12-02 11:09:09 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-12-02 11:09:10 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-12-02 11:09:10 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 11:09:11 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 11:09:11 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:MISHRA
+2025-12-02 11:09:11 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:PIM
+2025-12-02 11:09:11 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed
+2025-12-02 11:09:12 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with placeholder:Type for hints...
+2025-12-02 11:09:12 [main] INFO  com.orangehrm.utilities.LoggerManager - entered text on:element with placeholder:Type for hints... AYUSH MISHRA
+2025-12-02 11:09:12 [main] INFO  com.orangehrm.utilities.LoggerManager - value eneterd:AYUSH MISHRA
+2025-12-02 11:09:12 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:Search
+2025-12-02 11:09:12 [main] INFO  com.orangehrm.utilities.LoggerManager - clicked an element:element with text:Search
+2025-12-02 11:09:12 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 11:09:13 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:AYUSH
+2025-12-02 11:09:13 [main] INFO  com.orangehrm.utilities.LoggerManager - Apllied the border with color  green to element element with text:MISHRA
+2025-12-02 11:09:13 [main] INFO  com.orangehrm.utilities.LoggerManager - webdriver instance is closed

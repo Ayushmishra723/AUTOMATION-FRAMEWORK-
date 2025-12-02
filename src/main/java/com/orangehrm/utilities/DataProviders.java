@@ -26,6 +26,14 @@ public class DataProviders {
     	return getSheetData("invalidLoginData");
     	
     }
+    
+    @DataProvider(name="emplVerification")
+    public  static Object[][] emplVerification()
+    {
+    	return getSheetData("emplVerification");
+    }
+    
+    
 
     // Utility method to get sheet data
     public static Object[][] getSheetData(String sheetName) {
