@@ -16,7 +16,7 @@ public class HomePage {
   private By pimtab= By.xpath("//span[text()=\"PIM\"]");
   private By employeeSearch=By.xpath("//label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input");
   private By searchButton=By.xpath("//button[@type='submit']");
-  private By emplFirstAndMiddleName = By.xpath("//div[@class='oxd-table-card']/div/div[3]");
+  private By emplFirstName = By.xpath("//div[@class='oxd-table-card']/div/div[3]");
   private By emplyLastName= By.xpath("//div[@class='oxd-table-card']/div/div[4]");
  
   
@@ -55,13 +55,13 @@ public class HomePage {
   {
 	  actionDriver.enterText(employeeSearch, value);
 	  actionDriver.click(searchButton);
-	  actionDriver.scrollToElement(emplFirstAndMiddleName);
+	  actionDriver.scrollToElement(emplFirstName);
 	  
   }
-  //verify employee first and middle nam e
-  public boolean verifyEmployeeFirstAndMiddleName(String emplFirstAndMiddleNameFromDb)
+  //verify employee first 
+  public boolean verifyEmployeeFirstName(String emplFirstNameFromDb)
   {
-	return actionDriver.compareText(emplFirstAndMiddleName,emplFirstAndMiddleNameFromDb);
+	return actionDriver.compareText(emplFirstName,emplFirstNameFromDb);
 	
 	  
   }

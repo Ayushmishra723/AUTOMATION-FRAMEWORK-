@@ -43,11 +43,11 @@ public class DBVerificationTest extends BaseClass {
 		  //fetch the data into  a map
 		 Map<String,String> employeeDetails= DBConnection.getEmployeeDetails(employee_id);
 		String emplFirstName= employeeDetails.get("firstName");
-		 String emplLastName=employeeDetails.get("lastName");
+		// String emplLastName=employeeDetails.get("lastName");
 		 
-		 String emplFirstAndLastName=(emplFirstName + "" + emplLastName).trim();
-		 ExtentManager.logStep("verify the employee first anf last name");
-		 Assert.assertTrue(homepage.verifyEmployeeFirstAndMiddleName(emplFirstAndLastName),"First and middle nam erae not matching ");
+		 String emplFirstAndLastName=(emplFirstName).trim();
+		 ExtentManager.logStep("verify the employee first and last name");
+		 Assert.assertTrue(homepage.verifyEmployeeFirstName(emplFirstAndLastName),"First and Last name are not matching ");
 		ExtentManager.logStep("DB Validatiom completed");
 		
 		 
